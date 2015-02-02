@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'ITC_Lubalin_Graph_LT_Demi';
+  src: url('ITC_Lubalin_Graph_LT_Demi.eot');
+  /* IE9 Compat Modes */
+  src: url('../fonts/ITC_Lubalin_Graph_LT_Demi.eot?#iefix') format('embedded-opentype'), url('../fonts/ITC_Lubalin_Graph_LT_Demi.woff2') format('woff2'), url('../fonts/ITC_Lubalin_Graph_LT_Demi.woff') format('woff'), url('../fonts/ITC_Lubalin_Graph_LT_Demi.ttf') format('truetype'), url('../fonts/ITC_Lubalin_Graph_LT_Demi.svg#ITC_Lubalin_Graph_LT_Demi') format('svg');
+  /* Legacy iOS */
+}
+body {
+  background-color: #faf9f9;
+  font-family: 'ITC_Lubalin_Graph_LT_Demi';
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.title {
+  font: 300 18px/20px 'ITC_Lubalin_Graph_LT_Demi';
+}
+
+#mainContainer {
+  height: 1300px;
+  overflow: hidden;
+}
+.first {
+  height: 266px;
+  left: 100px;
+  overflow: hidden;
+  position: absolute;
+  text-align: justify;
+  top: 250px;
+  width: 335px;
+}
+.second {
+  height: 266px;
+  position: absolute;
+  text-align: justify;
+  top: 600px;
+  width: 335px;
+}
+.third {
+  height: 266px;
+  left: 60%;
+  opacity: 0;
+  position: absolute;
+  text-align: justify;
+  top: 900px;
+  width: 335px;
+}

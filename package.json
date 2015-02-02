@@ -1,0 +1,15 @@
+{
+    "name": "Scroll Animator ",
+    "version": "0.0.1",
+    "description": "Angular JS directive to target animations during page scrolling",
+    "main": "Gruntfile.js",
+    "author": {
+        "name": "Damien Bigot",
+        "email": "damien.bigot@gmail.com",
+        "twitter": "eckografik"
+    },
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-shell": "^1.1.1"
+    }
+}
